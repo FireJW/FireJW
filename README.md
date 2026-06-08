@@ -8,6 +8,14 @@ I build local-first AI workflow tools, research automation systems, and public-s
 - Research and market workflow tooling with explicit evidence, validation, and review gates.
 - Small deployable systems with clear README, docs, Pages previews, and reproducible checks.
 
+## Recommended Reading Order
+
+1. [stock-analysis-plus](https://github.com/FireJW/stock-analysis-plus) for the cleanest market-research workflow extraction.
+2. [deckgen-local](https://github.com/FireJW/deckgen-local) for contract-first artifact generation and local preview gates.
+3. [research-to-deck](https://github.com/FireJW/research-to-deck) for a compact AI product workflow case study.
+4. [obsidian-kb-workflow-lite](https://github.com/FireJW/obsidian-kb-workflow-lite) for public-safe knowledge-base automation primitives.
+5. [consulting-crm-lite](https://github.com/FireJW/consulting-crm-lite) for a local-first operational tool with privacy gates.
+
 ## Portfolio
 
 ### Market Research Systems
