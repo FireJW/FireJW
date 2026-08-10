@@ -1,65 +1,72 @@
+<div align="center">
+
 # FireJW
 
-**Local-first AI workflow systems, research automation, and public-safe product engineering.**
+### Applied AI product systems for real operating workflows
 
-I turn real operating workflows into small, auditable tools with reproducible demos, validation gates, and explicit privacy boundaries.
+I turn ambiguous, high-friction operations into local-first software with
+inspectable artifacts, measurable outcomes, and explicit human approval.
 
-`Python` · `JavaScript / TypeScript` · `Node.js` · `SQLite` · `Deno` · `Chrome DevTools Protocol`
+`Applied AI` | `Forward-deployed workflows` | `Evidence-gated automation`
 
-## Featured Work
+</div>
 
-| Project | Engineering signal | Review |
+## Current Build
+
+### [ecommerce-ai-ops-lab](https://github.com/FireJW/ecommerce-ai-ops-lab)
+
+A privacy-gated operating lab for testing whether AI actually reduces ecommerce
+cost. It covers Amazon-style listing drafts, short-form creative briefs,
+support-response drafting, full-cost measurement, and dry-run platform request
+packages.
+
+- Offline deterministic demo plus opt-in OpenAI Responses integration
+- Source-fact references and prohibited-claim validation
+- Amazon, Shopify, TikTok Ads, and YouTube Shopping dry-run connectors
+- Human review before publishing, messaging, refunds, or account changes
+- Measured-experiment contract that includes review, rework, and incident cost
+
+[Repository](https://github.com/FireJW/ecommerce-ai-ops-lab) |
+[Experiment protocol](https://github.com/FireJW/ecommerce-ai-ops-lab/blob/main/docs/EXPERIMENT.md) |
+[Safety model](https://github.com/FireJW/ecommerce-ai-ops-lab/blob/main/SECURITY.md)
+
+## Selected Systems
+
+| System | What it demonstrates | Review surface |
 | --- | --- | --- |
-| [stock-analysis-plus](https://github.com/FireJW/stock-analysis-plus) | Evidence-grounded market research with shortlists, macro overlays, data adapters, and validation bundles. | [Live demo](https://firejw.github.io/stock-analysis-plus/) · [Runbook](https://github.com/FireJW/stock-analysis-plus/blob/main/docs/demo-run.md) |
-| [deckgen-local](https://github.com/FireJW/deckgen-local) | Contract-first artifact generation from Markdown and source packages to HTML previews and optional PPTX. | [Live demo](https://firejw.github.io/deckgen-local/) · [Runbook](https://github.com/FireJW/deckgen-local/blob/master/docs/demo-run.md) |
-| [consulting-crm-lite](https://github.com/FireJW/consulting-crm-lite) | Local-first consulting operations with anonymized records, delivery tracking, and approval-gated case studies. | [Live demo](https://firejw.github.io/consulting-crm-lite/) · [Transcript](https://github.com/FireJW/consulting-crm-lite/blob/main/docs/demo-transcript.md) |
-| [xhs-readonly-monitor-lite](https://github.com/FireJW/xhs-readonly-monitor-lite) | Read-only CDP monitoring with task-scoped tabs and a hard boundary against account-changing automation. | [Live demo](https://firejw.github.io/xhs-readonly-monitor-lite/) · [Transcript](https://github.com/FireJW/xhs-readonly-monitor-lite/blob/main/docs/demo-transcript.md) |
+| [stock-analysis-plus](https://github.com/FireJW/stock-analysis-plus) | Evidence-grounded research workflows, market-data adapters, explicit gaps, and reproducible validation bundles. | [Live demo](https://firejw.github.io/stock-analysis-plus/) |
+| [deckgen-local](https://github.com/FireJW/deckgen-local) | Contract-first generation from source packages to reviewable HTML and optional PPTX artifacts. | [Live demo](https://firejw.github.io/deckgen-local/) |
+| [ai-job-radar](https://github.com/FireJW/ai-job-radar) | Source-health-aware job discovery, structured matching, and human-reviewed application decisions. | [Live demo](https://firejw.github.io/ai-job-radar/) |
+| [consulting-crm-lite](https://github.com/FireJW/consulting-crm-lite) | Anonymized consulting operations, delivery packets, approval gates, and public-safe case-study export. | [Live demo](https://firejw.github.io/consulting-crm-lite/) |
+| [research-to-deck](https://github.com/FireJW/research-to-deck) | Traceable research synthesis with source grounding, QC reports, and presentation-ready outputs. | [Live demo](https://firejw.github.io/research-to-deck/) |
 
-## Engineering Priorities
+## How I Work
 
-- **Local-first by default:** credentials, source data, browser state, and generated working files stay outside public repositories.
-- **Evidence before output:** workflows expose source health, validation results, review packets, or reproducible checks.
-- **Inspectable artifacts:** Markdown, JSON, HTML, SQLite, and PPTX outputs remain easy to audit and hand off.
-- **Human review gates:** publishing, account changes, case-study export, and other consequential actions remain explicit.
+| Stage | Output |
+| --- | --- |
+| Frame | A concrete operating problem, decision owner, baseline, and failure boundary |
+| Build | The smallest workflow that can produce a useful, inspectable artifact |
+| Gate | Privacy checks, source validation, dry-run adapters, and human approval |
+| Measure | Accepted-output cost, quality guardrails, rework, incidents, and next decision |
 
-## Portfolio Index
+## Engineering Principles
 
-### Research And Market Systems
+- **Local-first by default.** Credentials, source data, browser state, and runtime outputs stay outside public repositories.
+- **Evidence before confidence.** Missing, stale, or partial inputs remain visible instead of being converted into false certainty.
+- **Artifacts over demos.** JSON, Markdown, HTML, SQLite, and PPTX outputs are designed to be audited and handed off.
+- **Automation stops at consequence.** Publishing, account mutation, financial actions, and customer-impacting changes require approval.
+- **Public work is extracted, not mirrored.** Each public repository is a minimal, synthetic, independently reviewed boundary.
 
-| Project | Focus | Demo |
-| --- | --- | --- |
-| [stock-analysis-plus](https://github.com/FireJW/stock-analysis-plus) | Public-safe stock analysis workflows for shortlists, macro overlays, evidence bundles, and market-data adapters. | [Pages](https://firejw.github.io/stock-analysis-plus/) |
-| [stock-kit](https://github.com/FireJW/stock-kit) | Local-first stock research toolkit with adapters, indicators, validation gates, and reinforcement review. | [Pages](https://firejw.github.io/stock-kit/) |
-| [market-alert-cloud](https://github.com/FireJW/market-alert-cloud) | Deno market-event alert service with RSS monitoring, keyword matching, KV deduplication, and Telegram delivery. | [Pages](https://firejw.github.io/market-alert-cloud/) |
+## Toolbox
 
-### Knowledge And Artifact Workflows
+`Python` | `JavaScript / TypeScript` | `Node.js` | `SQLite` | `Deno` |
+`GitHub Actions` | `OpenAI Responses API` | `Chrome DevTools Protocol`
 
-| Project | Focus | Demo |
-| --- | --- | --- |
-| [deckgen-local](https://github.com/FireJW/deckgen-local) | Contract-first local deck generation with traceable run bundles and quality gates. | [Pages](https://firejw.github.io/deckgen-local/) |
-| [research-to-deck](https://github.com/FireJW/research-to-deck) | Public-safe research-to-deck workflow with source grounding, HTML preview, and QC reports. | [Pages](https://firejw.github.io/research-to-deck/) |
-| [obsidian-kb-workflow-lite](https://github.com/FireJW/obsidian-kb-workflow-lite) | Preview-first primitives for Markdown knowledge bases, frontmatter, wikilinks, search, and manifests. | [Pages](https://firejw.github.io/obsidian-kb-workflow-lite/) |
+## Direction
 
-### Product And Automation Tools
+I am focused on Applied AI Product, Forward Deployed Product, and AI Solutions
+work where the hard part is not producing a model response, but integrating the
+workflow into real operations and proving that it is safer, faster, or cheaper.
 
-| Project | Focus | Demo |
-| --- | --- | --- |
-| [consulting-crm-lite](https://github.com/FireJW/consulting-crm-lite) | Local-first consulting CRM with anonymized leads, delivery packets, and case-study approval gates. | [Pages](https://firejw.github.io/consulting-crm-lite/) |
-| [ai-job-radar](https://github.com/FireJW/ai-job-radar) | AI job discovery with source-health checks, structured matching, and human-review application gates. | [Pages](https://firejw.github.io/ai-job-radar/) |
-| [xhs-readonly-monitor-lite](https://github.com/FireJW/xhs-readonly-monitor-lite) | Read-only Xiaohongshu feed and note-metric inspection through Chrome DevTools. | [Pages](https://firejw.github.io/xhs-readonly-monitor-lite/) |
-
-### Adapted Public Workflows
-
-These repositories are clearly labeled forks and are included for integration and packaging work rather than as original upstream projects.
-
-| Project | Adaptation | Demo |
-| --- | --- | --- |
-| [daily_stock_analysis](https://github.com/FireJW/daily_stock_analysis) | Portfolio fork of an AI-assisted A-share workflow with scheduled reports and notification delivery. | [Pages](https://firejw.github.io/daily_stock_analysis/) |
-| [ai-daily-digest](https://github.com/FireJW/ai-daily-digest) | Portfolio fork of an AI-scored RSS digest with grouping, trend highlights, and Markdown reports. | [Pages](https://firejw.github.io/ai-daily-digest/) |
-
-## Public Packaging Pattern
-
-1. Extract the smallest reusable workflow boundary.
-2. Remove credentials, private source data, browser sessions, local databases, and generated runtime artifacts.
-3. Add a focused README, live review surface, safety notes, synthetic fixtures, and reproducible checks.
-4. Keep the full operating system private when a clean public extraction is the safer artifact.
+The most useful conversations start with a real process, its current cost, and
+the decision that better evidence would unlock.
