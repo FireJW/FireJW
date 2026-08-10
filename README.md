@@ -20,12 +20,15 @@ cost. It covers Amazon-style listing drafts, short-form creative briefs,
 support-response drafting, full-cost measurement, and dry-run platform request
 packages.
 
+[![Ecommerce AI Ops evidence dashboard](https://raw.githubusercontent.com/FireJW/ecommerce-ai-ops-lab/main/docs/assets/ecommerce-ops-preview.png)](https://firejw.github.io/ecommerce-ai-ops-lab/)
+
 - Offline deterministic demo plus opt-in OpenAI Responses integration
 - Source-fact references and prohibited-claim validation
 - Amazon, Shopify, TikTok Ads, and YouTube Shopping dry-run connectors
 - Human review before publishing, messaging, refunds, or account changes
 - Measured-experiment contract that includes review, rework, and incident cost
 
+[Live evidence dashboard](https://firejw.github.io/ecommerce-ai-ops-lab/) |
 [Repository](https://github.com/FireJW/ecommerce-ai-ops-lab) |
 [Experiment protocol](https://github.com/FireJW/ecommerce-ai-ops-lab/blob/main/docs/EXPERIMENT.md) |
 [Safety model](https://github.com/FireJW/ecommerce-ai-ops-lab/blob/main/SECURITY.md)
